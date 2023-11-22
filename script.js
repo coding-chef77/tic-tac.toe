@@ -10,7 +10,7 @@ const WINNING_COMBINATIONS = [
   [0, 4, 8],
   [2, 4, 6],
 ];
-const cellElements = document.querySelectorAll("[data-cell");
+const cellElements = document.querySelectorAll("[data-mini-cell]");
 const board = document.querySelector("#board");
 const restartButton = document.querySelector("#restartButton");
 const winningMessageElement = document.querySelector("#winning-message");
